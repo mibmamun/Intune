@@ -1,0 +1,75 @@
+App information
+Edit
+Name
+Office 365
+Description
+office packages
+
+Publisher
+Microsoft
+App Version
+--
+Category
+--
+Show this as a featured app in the Company Portal
+No
+Information URL
+--
+Privacy URL
+--
+Developer
+--
+Owner
+--
+Notes
+--
+Logo
+--
+Program
+Edit
+Install command
+SETUP.exe /configure intuneInstall.xml
+Uninstall command
+SETUP.exe /configure intuneInstall.xml
+Install behavior
+System
+Device restart behavior
+App install may force a device restart
+Return codes
+0 Success
+1707 Success
+3010 Soft reboot
+1641 Hard reboot
+1618 Retry
+Requirements
+Edit
+Operating system architecture
+x64
+Minimum operating system
+Windows 10 1607
+Disk space required (MB)
+--
+Physical memory required (MB)
+--
+Minimum number of logical processors required
+--
+Minimum CPU speed required (MHz)
+--
+Additional requirement rules
+--
+Detection rules
+Edit
+Rules format
+Manually configure detection rules
+Detection rules
+Registry Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\O365ProPlusRetail - en-us
+Dependencies
+Edit
+Dependencies
+--
+Supersedence (preview)
+Edit
+Supersedence (preview)
+--
+Assignments
+Edit
